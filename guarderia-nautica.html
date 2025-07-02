@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Diseño de Base de Datos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="assets/JuanIgnacioHigonet_CV.pdf" class="nav-links" download data-tooltip="Descargar CV">
+                        <i class="fa-solid fa-file-arrow-down"></i> CV
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </li>
+                 <li class="nav-item">
+                    <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
+                        <i class="fa-solid fa-envelope"></i> Mail
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <a href="index.html#proyectos" class="back-to-projects-btn">
+        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos
+    </a>
+
+    <div class="project-detail-container">
+        <main class="project-content">
+            <h1>Diseño de Base de Datos para Guardería Náutica</h1>
+            <p>
+                Este proyecto abarca el ciclo de vida completo del diseño de una base de datos relacional para un sistema de gestión de una guardería náutica, incluyendo una escuela de actividades acuáticas.
+            </p>
+            <p>
+                A partir de los requerimientos de negocio, se desarrolló un modelo conceptual, un modelo lógico y finalmente la implementación física en SQL.
+            </p>
+            
+            <h2>Proceso de Diseño</h2>
+            <p>
+                El desarrollo siguió un proceso estructurado, comenzando por el análisis de los requerimientos para identificar entidades y relaciones clave. Posteriormente, se construyó un Diagrama Entidad-Relación (DER) para modelar conceptualmente el sistema. Este modelo fue luego transformado a un esquema relacional, aplicando principios de normalización para asegurar la integridad de los datos. La etapa final consistió en la escritura de un script SQL con las sentencias DDL y DML para crear e inicializar la base de datos.
+            </p>
+        </main>
+
+        <aside class="project-sidebar">
+            <img src="img/proyecto-db.jpg" alt="Diagrama Entidad-Relación" class="sidebar-image">
+            <h3>Habilidades y Conceptos</h3>
+            <div class="project-tech-list">
+                <span>Diseño de BD</span>
+                <span>Modelado de Datos</span>
+                <span>SQL</span>
+                <span>Análisis de Sistemas</span>
+                <span>Normalización</span>
+            </div>
+            
+            <h3>Recursos del Proyecto</h3>
+            <div class="project-links">
+                <a href="https://github.com/JuaniHigo/Guarderia-SQL" class="btn-link" target="_blank">
+                    <i class="fa-brands fa-github"></i> Ver en GitHub
+                </a>
+                <a href="https://github.com/JuaniHigo/Guarderia-SQL/blob/main/DER_GuarderiaNautica.pdf" class="btn-link" target="_blank">
+                    <i class="fa-solid fa-file-pdf"></i> Ver Informe
+                </a>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>

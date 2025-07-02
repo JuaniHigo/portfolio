@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Simulación de Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="assets/JuanIgnacioHigonet_CV.pdf" class="nav-links" download data-tooltip="Descargar CV">
+                        <i class="fa-solid fa-file-arrow-down"></i> CV
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </li>
+                 <li class="nav-item">
+                    <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
+                        <i class="fa-solid fa-envelope"></i> Mail
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <a href="index.html#proyectos" class="back-to-projects-btn">
+        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos
+    </a>
+
+    <div class="project-detail-container">
+        <main class="project-content">
+            <h1>Simulación de Sistemas con AnyLogic y Python</h1>
+            <p>
+                Este proyecto contiene las implementaciones en Python de dos modelos de simulación de eventos discretos, desarrollados y validados originalmente en el software de simulación <strong>AnyLogic</strong>. El objetivo es demostrar la capacidad de replicar la lógica de sistemas complejos en diferentes plataformas.
+            </p>
+            
+            <h2>Modelos Implementados</h2>
+            <h3>1. Sistema de Colas (Cajero Automático)</h3>
+            <p>
+                Se simula el comportamiento de un cajero automático con llegadas de clientes no estacionarias (varían según el día y la hora) y una capacidad de cola finita. El script en Python, usando la librería <strong>SimPy</strong>, replica el modelo M/M/1 con balking construido en AnyLogic para calcular métricas de rendimiento clave como tiempos de espera, longitud de la cola y utilización del servidor.
+            </p>
+
+            <h3>2. Sistema de Inventario (Sodero)</h3>
+            <p>
+                Este modelo implementa una política de control de inventario <strong>(R, S)</strong> de revisión periódica para un repartidor. El script analiza y optimiza los costos totales del sistema (ordenar, mantener y faltante) a través de múltiples corridas para obtener resultados estadísticos robustos, considerando la variabilidad en la demanda y los tiempos de entrega.
+            </p>
+        </main>
+
+        <aside class="project-sidebar">
+            <img src="img/proyecto-anylogic.jpg" alt="Modelo de simulación en AnyLogic" class="sidebar-image">
+            <h3>Tecnologías y Conceptos</h3>
+            <div class="project-tech-list">
+                <span>Simulación de Eventos Discretos</span>
+                <span>Teoría de Colas</span>
+                <span>Gestión de Inventarios</span>
+                <span>AnyLogic</span>
+                <span>SimPy</span>
+                <span>Python</span>
+            </div>
+            
+            <h3>Recursos del Proyecto</h3>
+            <div class="project-links">
+                <a href="https://github.com/JuaniHigo/Simulacion-eventos-discretos" class="btn-link" target="_blank">
+                    <i class="fa-brands fa-github"></i> Ver en GitHub
+                </a>
+                <a href="https://github.com/JuaniHigo/Simulacion-eventos-discretos/blob/main/TP_3_Simulaci%C3%B3n_de_un_modelo_MM1_e_Inventario.pdf" class="btn-link" target="_blank">
+                    <i class="fa-solid fa-file-pdf"></i> Ver Informe
+                </a>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>

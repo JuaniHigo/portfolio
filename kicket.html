@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Kicket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="assets/JuanIgnacioHigonet_CV.pdf" class="nav-links" download data-tooltip="Descargar CV">
+                        <i class="fa-solid fa-file-arrow-down"></i> CV
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </li>
+                 <li class="nav-item">
+                    <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
+                        <i class="fa-solid fa-envelope"></i> Mail
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <a href="index.html#proyectos" class="back-to-projects-btn">
+        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos
+    </a>
+
+    <div class="project-detail-container">
+        <main class="project-content">
+            <h1>Kicket - Venta de Entradas Online</h1>
+            <p>
+                Kicket es una plataforma web Full-Stack para la venta online de entradas a partidos de fútbol. El proyecto está diseñado para facilitar el acceso a las entradas, evitando filas y optimizando la experiencia del hincha a través de una interfaz rápida y un sistema seguro.
+            </p>
+            
+            <h2>Características Principales</h2>
+            <ul>
+                <li><strong>Calendario de Partidos:</strong> Visualización de futuros encuentros con todos los detalles.</li>
+                <li><strong>Selección de Asientos:</strong> Interfaz interactiva para que los usuarios elijan su ubicación.</li>
+                <li><strong>Compra Segura:</strong> Integración de métodos de pago para una transacción fiable.</li>
+                <li><strong>Gestión de Usuarios:</strong> Sistema de registro y perfiles para ver historiales de compra y gestionar datos.</li>
+                <li><strong>Confirmación por Correo:</strong> Notificaciones y envío de entradas digitales con código QR.</li>
+            </ul>
+
+            <h2>Stack Tecnológico</h2>
+            <p>
+                El proyecto está construido con una arquitectura de dos repositorios separados para el cliente y el servidor, una práctica común en el desarrollo web moderno.
+            </p>
+        </main>
+
+        <aside class="project-sidebar">
+            <img src="img/carbon (1).png" alt="Mockup de la aplicación Kicket" class="sidebar-image">
+            <h3>Tecnologías y Conceptos</h3>
+            <div class="project-tech-list">
+                <span>Desarrollo Web Full-Stack</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+            </div>
+            
+            <h3>Recursos del Proyecto</h3>
+            <div class="project-links">
+                <a href="https://github.com/JuaniHigo/TPDSW-frontend" class="btn-link" target="_blank">
+                    <i class="fa-brands fa-react"></i> Repo Frontend
+                </a>
+                <a href="https://github.com/JuaniHigo/TPDSW-backend" class="btn-link" target="_blank">
+                    <i class="fa-brands fa-node-js"></i> Repo Backend
+                </a>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>

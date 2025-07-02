@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Simulación de Distribuciones</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="assets/JuanIgnacioHigonet_CV.pdf" class="nav-links" download data-tooltip="Descargar CV">
+                        <i class="fa-solid fa-file-arrow-down"></i> CV
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </li>
+                 <li class="nav-item">
+                    <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
+                        <i class="fa-solid fa-envelope"></i> Mail
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <a href="index.html#proyectos" class="back-to-projects-btn">
+        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos </a>
+
+    <div class="project-detail-container">
+        <main class="project-content">
+            <h1>Simulación de Distribuciones de Probabilidad</h1>
+            <p>Este proyecto se enfoca en la implementación de dos métodos fundamentales para la generación de variables aleatorias que siguen una distribución de probabilidad específica: el Método de la Transformada Inversa y el Método de Rechazo.</p>
+            <p>El objetivo es demostrar la capacidad de generar datos que se comporten como si provinieran de fenómenos reales modelados por distribuciones como la Normal, Exponencial, Gamma, Uniforme, entre otras. Posteriormente, se aplican pruebas de bondad de ajuste como Anderson-Darling y Kolmogorov-Smirnov para validar estadísticamente que los datos generados se ajustan correctamente a los modelos teóricos.</p>
+            <h2>Proceso y Metodología</h2>
+            <p>Para cada distribución, el script genera un conjunto de datos y produce una visualización comparativa que incluye un histograma de los datos generados y la curva de la Función de Densidad de Probabilidad (PDF) teórica. Adicionalmente, se incluyen gráficos Q-Q para una comparación visual más rigurosa de los cuantiles.</p>
+            </main>
+
+        <aside class="project-sidebar">
+            <img src="img/test_rechazoPY.png" alt="Gráfico de distribuciones" class="sidebar-image">
+            <h3>Tecnologías Utilizadas</h3>
+            <div class="project-tech-list">
+                <span>Modelado Estadístico</span>
+                <span>Método de Montecarlo</span>
+                <span>Python</span>
+                <span>SciPy</span>
+                <span>NumPy</span>
+            </div>
+            
+            <h3>Recursos del Proyecto</h3>
+            <div class="project-links">
+                <a href="https://github.com/JuaniHigo/Generador-num-pseudo" class="btn-link" target="_blank">
+                    <i class="fa-brands fa-github"></i> Ver en GitHub
+                </a>
+                <a href="https://github.com/JuaniHigo/Generador-num-pseudo/blob/main/TP_2_2_Generadores_de_n%C3%BAmeros_pseudoaleatorios_de_distintas_Distribuciones_de_Probabilidad.pdf" class="btn-link" target="_blank">
+                    <i class="fa-solid fa-file-pdf"></i> Ver Informe
+                </a>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
