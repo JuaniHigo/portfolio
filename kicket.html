@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto - Kicket</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Detalle del Proyecto - Kicket</title>
+    <link rel="stylesheet" href="style.css?v=1.9">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-<body>
+<body class="project-detail-page">
 
     <nav class="navbar">
         <div class="navbar-container">
@@ -22,11 +22,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/juanignaciohigonet/" class="nav-links" target="_blank" data-tooltip="Ver mi Perfil">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
                         <i class="fa-brands fa-github"></i> GitHub
                     </a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
                         <i class="fa-solid fa-envelope"></i> Mail
                     </a>
@@ -34,50 +39,53 @@
             </ul>
         </div>
     </nav>
-    <a href="index.html#proyectos" class="back-to-projects-btn">
-        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos
-    </a>
 
     <div class="project-detail-container">
-        <main class="project-content">
-            <h1>Kicket - Venta de Entradas Online</h1>
-            <p>
-                Kicket es una plataforma web Full-Stack para la venta online de entradas a partidos de fútbol. El proyecto está diseñado para facilitar el acceso a las entradas, evitando filas y optimizando la experiencia del hincha a través de una interfaz rápida y un sistema seguro.
-            </p>
+        <main class="project-main-content">
+            <a href="index.html#proyectos" class="back-to-projects-btn"><i class="fa-solid fa-arrow-left"></i> Volver a Proyectos</a>
             
-            <h2>Características Principales</h2>
-            <ul>
-                <li><strong>Calendario de Partidos:</strong> Visualización de futuros encuentros con todos los detalles.</li>
-                <li><strong>Selección de Asientos:</strong> Interfaz interactiva para que los usuarios elijan su ubicación.</li>
-                <li><strong>Compra Segura:</strong> Integración de métodos de pago para una transacción fiable.</li>
-                <li><strong>Gestión de Usuarios:</strong> Sistema de registro y perfiles para ver historiales de compra y gestionar datos.</li>
-                <li><strong>Confirmación por Correo:</strong> Notificaciones y envío de entradas digitales con código QR.</li>
-            </ul>
+            <h1>Kicket - Venta de Entradas Online</h1>
 
-            <h2>Stack Tecnológico</h2>
-            <p>
-                El proyecto está construido con una arquitectura de dos repositorios separados para el cliente y el servidor, una práctica común en el desarrollo web moderno.
-            </p>
+            <section>
+                <h2>Descripción General</h2>
+                <p>
+                    Kicket es una aplicación web full-stack diseñada para la venta de entradas a eventos. Permite a los usuarios explorar eventos, seleccionar asientos y realizar compras de manera segura, mientras que los administradores pueden gestionar eventos, precios y localidades.
+                </p>
+            </section>
+
+            <section>
+                <h2>Objetivo</h2>
+                <p>
+                    El objetivo era construir una aplicación web completa y funcional, aplicando tecnologías modernas del stack MERN (MongoDB, Express, React, Node.js) y demostrando habilidades en el desarrollo tanto del frontend como del backend.
+                </p>
+            </section>
+
+            <section>
+                <h2>Paso a Paso</h2>
+                <ol class="step-by-step">
+                    <li><span>1.</span> Diseño de la interfaz de usuario y la experiencia del usuario (UI/UX).</li>
+                    <li><span>2.</span> Desarrollo del frontend utilizando React para crear una interfaz interactiva y responsive.</li>
+                    <li><span>3.</span> Construcción de la API REST en el backend con Node.js y Express para manejar la lógica de negocio y la comunicación con la base de datos.</li>
+                    <li><span>4.</span> Integración del frontend y el backend, y despliegue de la aplicación.</li>
+                </ol>
+            </section>
         </main>
 
         <aside class="project-sidebar">
-            <img src="img/carbon (1).png" alt="Mockup de la aplicación Kicket" class="sidebar-image">
-            <h3>Tecnologías y Conceptos</h3>
-            <div class="project-tech-list">
-                <span>Desarrollo Web Full-Stack</span>
-                <span>React</span>
-                <span>Node.js</span>
-                <span>Express</span>
-            </div>
+            <img src="img/kicket.png" alt="Imagen del proyecto Kicket" class="sidebar-image">
             
-            <h3>Recursos del Proyecto</h3>
+            <h3>Tecnologías Utilizadas</h3>
+            <div class="project-tech-list">
+                <div class="tech-tag"><img src="https://cdn.simpleicons.org/react/5a6474" alt="React Logo"><span>React</span></div>
+                <div class="tech-tag"><img src="https://cdn.simpleicons.org/nodedotjs/5a6474" alt="Node.js Logo"><span>Node.js</span></div>
+                <div class="tech-tag"><img src="https://cdn.simpleicons.org/express/5a6474" alt="Express Logo"><span>Express</span></div>
+                <div class="tech-tag"><span>Full-Stack</span></div>
+            </div>
+
+            <h3>Recursos Adicionales</h3>
             <div class="project-links">
-                <a href="https://github.com/JuaniHigo/TPDSW-frontend" class="btn-link" target="_blank">
-                    <i class="fa-brands fa-react"></i> Repo Frontend
-                </a>
-                <a href="https://github.com/JuaniHigo/TPDSW-backend" class="btn-link" target="_blank">
-                    <i class="fa-brands fa-node-js"></i> Repo Backend
-                </a>
+                <a href="https://github.com/JuaniHigo/TPDSW-frontend" class="btn-link" target="_blank"><i class="fa-brands fa-react"></i> Repo Frontend</a>
+                <a href="https://github.com/JuaniHigo/TPDSW-backend" class="btn-link" target="_blank"><i class="fa-brands fa-node-js"></i> Repo Backend</a>
             </div>
         </aside>
     </div>

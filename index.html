@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio - Juani Higonet</title>
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="style.css?v=2.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
@@ -13,31 +12,31 @@
 
     <nav class="navbar">
         <div class="navbar-container">
-            <a href="#" class="nav-logo">
+            <a href="index.html" class="nav-logo">
                 <i class="fa-solid fa-house"></i> Home
             </a>
             <ul class="nav-menu">
-    <li class="nav-item">
-        <a href="assets/JuanIgnacioHigonet_CV.pdf" class="nav-links" download data-tooltip="Descargar CV">
-            <i class="fa-solid fa-file-arrow-down"></i> CV
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="https://www.linkedin.com/in/juanignaciohigonet/" class="nav-links" target="_blank" data-tooltip="Ver mi Perfil">
-            <i class="fa-brands fa-linkedin"></i> LinkedIn
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
-            <i class="fa-brands fa-github"></i> GitHub
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
-            <i class="fa-solid fa-envelope"></i> Mail
-        </a>
-    </li>
-</ul>
+                <li class="nav-item">
+                    <a href="assets/JuanIgnacioHigonet_CV.pdf" class="nav-links" download data-tooltip="Descargar CV">
+                        <i class="fa-solid fa-file-arrow-down"></i> CV
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/juanignaciohigonet/" class="nav-links" target="_blank" data-tooltip="Ver mi Perfil">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
+                        <i class="fa-solid fa-envelope"></i> Mail
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -56,10 +55,10 @@
             </div>
             <div class="intro-text-wrapper">
                 <p class="introduction-text">
-                    Mi nombre es Juan Ignacio Higonet, estudiante de Ingenieria en Sistemas de Informacion en la Universidad Tecnologica Nacional (UTN) de Argentina. En camino a convertirme en Analista de Datos, les doy la bienvenida a mi portafolio personal, donde podrán explorar mis proyectos y trabajos realizados hasta la fecha.
+                    Soy <strong>Analista de Datos</strong>, especializado en transformar datos complejos en decisiones estratégicas. Actualmente estoy finalizando mi carrera de <strong>Analista Universitario de Sistemas</strong> en la <strong>Universidad Tecnológica Nacional (UTN)</strong>, a falta de presentar mi tesis.
                 </p>
                 <p class="introduction-text">
-                    En la barra superior podran encontrar mis redes sociales y mi curriculum vitae. Si desean contactarme, pueden hacerlo a traves de mi correo electronico: <a href="mailto:jhigonet89@gmail.com">jhigonet89@gmail.com</a>
+                    Te invito a explorar mis proyectos para ver mi trabajo en acción. Si tenés alguna pregunta o propuesta, no dudes en <a href="mailto:jhigonet89@gmail.com">contactarme</a>.
                 </p>
             </div>
         </div>
@@ -72,241 +71,166 @@
     </div>
 
     <main class="page-content">
-       <section id="proyectos" class="section left-aligned-title">
+        <section id="proyectos" class="section">
+            <div class="section-header">
+                <h2><span>PROYECTOS & TRABAJOS</span></h2>
+            </div>
 
-        <div class="section-header">
-            <h2><span>PROYECTOS & TRABAJOS</span></h2>
-
-                <div class="note-container">
-                    <div class="note-icon">
-                        <i class="fa-solid fa-note-sticky"></i>
-                        <span>Nota sobre mis habilidades</span>
+            <!-- SECCIÓN ANÁLISIS DE DATOS -->
+            <h3 class="section-subtitle">Análisis de Datos y Simulación</h3>
+            <div class="projects-grid">
+                <a href="generador-numeros.html" class="project-card">
+                    <img src="img/test_rechazoPY.png" alt="Gráfico de distribuciones" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Simulación de Distribuciones</h3>
+                        <div class="project-tech-list">
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/python/5a6474" alt="Python Logo"><span>Python</span></div>
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/numpy/5a6474" alt="NumPy Logo"><span>NumPy</span></div>
+                            <div class="tech-tag"><span>Matplotlib</span></div>
+                            <div class="tech-tag"><span>Estadística</span></div>
+                        </div>
                     </div>
-                    <div class="note-content">
-                        <p>
-                        Mi objetivo es especializarme como Analista de Datos. En mis proyectos verás simulación, diseño de bases de datos y desarrollo web; lo que une a todos es mi interés por entender y modelar sistemas complejos, una habilidad clave para transformar datos en decisiones de negocio.
-                        </p>
+                </a>
+                <a href="generadores-pseudoaleatorios.html" class="project-card">
+                    <img src="img/Python.png" alt="Gráfico de tests de aleatoriedad" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Generadores y Tests de Aleatoriedad</h3>
+                        <div class="project-tech-list">
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/python/5a6474" alt="Python Logo"><span>Python</span></div>
+                            <div class="tech-tag"><span>Algoritmos</span></div>
+                            <div class="tech-tag"><span>Análisis de Datos</span></div>
+                        </div>
                     </div>
-                </div>
-        </div>
-     
-<div class="projects-grid">
-    
-    <a href="generador-numeros.html" class="project-card" id="proyecto-1">
-        <img src="img/test_rechazoPY.png" alt="Gráfico de distribuciones" class="project-image">
-        <div class="project-info">
-            <h3 class="project-title">Simulación de Distribuciones</h3>
-            <div class="project-tech-list">
-                <span>Python</span>
-                <span>Estadística Computacional</span>
-                <span>Testing de Software</span>
-                <span>Análisis de Datos</span>
+                </a>
+                <a href="simulacion-sistemas.html" class="project-card">
+                    <img src="img/proyecto-anylogic.jpg" alt="Modelo de simulación en AnyLogic" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Simulación de Sistemas con AnyLogic y Python</h3>
+                        <div class="project-tech-list">
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/python/5a6474" alt="Python Logo"><span>Python</span></div>
+                            <div class="tech-tag"><span>AnyLogic</span></div>
+                            <div class="tech-tag"><span>Simulación</span></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="guarderia-nautica.html" class="project-card">
+                    <img src="img/proyecto-db.jpg" alt="Diagrama Entidad-Relación de una base de datos" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Diseño de Base de Datos para Guardería Náutica</h3>
+                        <div class="project-tech-list">
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/mysql/5a6474" alt="MySQL Logo"><span>MySQL</span></div>
+                            <div class="tech-tag"><span>Modelado de Datos</span></div>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
-    </a>
 
-    <a href="generadores-pseudoaleatorios.html" class="project-card" id="proyecto-2">
-        <img src="img/Python.png" alt="Gráfico de tests de aleatoriedad" class="project-image">
-        <div class="project-info">
-            <h3 class="project-title">Generadores y Tests de Aleatoriedad</h3>
-            <div class="project-tech-list">
-                <span>Python</span>
-                <span>Programación Científica</span>
-                <span>Análisis de Aleatoriedad</span>
-                <span>Algoritmos</span>
+            <!-- SECCIÓN DESARROLLO WEB -->
+            <h3 class="section-subtitle">Desarrollo Web</h3>
+            <div class="projects-grid">
+                <a href="kicket.html" class="project-card">
+                    <img src="img/kicket.png" alt="Interfaz de Kicket" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Kicket - Venta de Entradas Online</h3>
+                        <div class="project-tech-list">
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/react/5a6474" alt="React Logo"><span>React</span></div>
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/nodedotjs/5a6474" alt="Node.js Logo"><span>Node.js</span></div>
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/express/5a6474" alt="Express Logo"><span>Express</span></div>
+                            <div class="tech-tag"><span>Full-Stack</span></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/JuaniHigo/portfolio" class="project-card" target="_blank">
+                    <img src="img/image.png" alt="Captura del portafolio personal" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Mi Portafolio Personal</h3>
+                        <div class="project-tech-list">
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/html5/5a6474" alt="HTML5 Logo"><span>HTML5</span></div>
+                            <div class="tech-tag"><span>CSS3</span></div>
+                            <div class="tech-tag"><img src="https://cdn.simpleicons.org/javascript/5a6474" alt="JavaScript Logo"><span>JavaScript</span></div>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
-    </a>
+        </section>
 
-    <a href="simulacion-sistemas.html" class="project-card" id="proyecto-3">
-        <img src="img/proyecto-anylogic.jpg" alt="Modelo de simulación en AnyLogic" class="project-image">
-        <div class="project-info">
-            <h3 class="project-title">Simulación de Sistemas con AnyLogic y Python</h3>
-            <div class="project-tech-list">
-                <span>Python</span>
-                <span>Gestión de Inventarios</span>
-                <span>AnyLogic</span>
-                <span>Simulación de Eventos</span>
+        <!-- SECCIÓN EDUCACIÓN -->
+        <section id="educacion" class="section">
+            <div class="section-header">
+                <h2><span>EDUCACIÓN</span></h2>
             </div>
-        </div>
-    </a>
-
-    <a href="kicket.html" class="project-card" id="proyecto-4">
-    <img src="img/carbon (1).png" alt="Interfaz de Kicket" class="project-image">
-    <div class="project-info">
-        <h3 class="project-title">Kicket - Venta de Entradas Online</h3>
-        <div class="project-tech-list">
-            <span>Desarrollo Web Full-Stack</span>
-            <span>React</span>
-            <span>Node.js</span>
-            <span>Express</span>
-        </div>
-    </div>
-</a>
-<a href="guarderia-nautica.html" class="project-card" id="proyecto-5">
-    <img src="img/proyecto-db.jpg" alt="Diagrama Entidad-Relación de una base de datos" class="project-image">
-    <div class="project-info">
-        <h3 class="project-title">Diseño de Base de Datos para Guardería Náutica</h3>
-        <div class="project-tech-list">
-            <span>Diseño de BD</span>
-            <span>Modelado de Datos</span>
-            <span>SQL</span>
-            <span>Análisis de Sistemas</span>
-        </div>
-    </div>
-</a>
-
-<a href="https://github.com/JuaniHigo/portfolio" class="project-card" target="_blank">
-    <img src="img/image.png" alt="Captura del portafolio personal" class="project-image">
-    <div class="project-info">
-        <h3 class="project-title">Mi Portafolio Personal</h3>
-        <div class="project-tech-list">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>Diseño Responsive</span>
-        </div>
-    </div>
-</a>
-
-</div>
-
-</div>
-
-    </div>
-<section id="educacion" class="section left-aligned-title">
-    <div class="educacion-wrapper">
-        <h2><span>EDUCACIÓN</span></h2>
             <div class="timeline">
-        
                 <div class="timeline-item">
                     <div class="timeline-content">
-                    <span class="timeline-date">2020 - Presente</span>
-                    <h3>Ingeniería en Sistemas de Información</h3>
-                    <h4>Universidad Tecnológica Nacional (UTN), Facultad Regional Rosario</h4>
-                    <p>
-                    Reconocimiento por desempeño destacado con promedio 9 en las materias de Bases de Datos y Diseño de Sistemas.
-                    </p>
+                        <span class="timeline-date">2020 - Presente</span>
+                        <h3>Ingeniería en Sistemas de Información</h3>
+                        <h4>Universidad Tecnológica Nacional (UTN), Facultad Regional Rosario</h4>
+                        <p>Reconocimiento por desempeño destacado con promedio 9 en las materias de Bases de Datos y Diseño de Sistemas.</p>
+                    </div>
                 </div>
-            </div>
-
                 <div class="timeline-item">
                     <div class="timeline-content">
-                    <span class="timeline-date">2014 - 2019</span>
-                    <h3>Bachiller en Economia</h3>
-                    <h4>Liceo Aeronautico Militar, Funes, Santa Fe.</h4>
-                    <p>Orientación en Ciencias economicas</p>
+                        <span class="timeline-date">2014 - 2019</span>
+                        <h3>Bachiller en Economía</h3>
+                        <h4>Liceo Aeronáutico Militar, Funes, Santa Fe.</h4>
+                        <p>Orientación en Ciencias Económicas.</p>
+                    </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </div>
-</section>
-
-
-<section id="certificaciones" class="section left-aligned-title">
-    <h2><span>CERTIFICACIONES</span></h2>
-    
-    <div class="timeline">
+        <!-- SECCIÓN CERTIFICACIONES -->
+        <section id="certificaciones" class="section">
+            <div class="section-header">
+                <h2><span>CERTIFICACIONES</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Año Previsto: 2025</span>
+                        <h3>Certificado Profesional de Análisis de Datos de Google</h3>
+                        <h4>Otorgado por: Coursera / Google</h4>
+                        <p>Certificación intensiva que cubre el ciclo completo del análisis de datos: preguntar, preparar, procesar, analizar, visualizar y actuar.</p>
+                        <a href="URL_DE_TU_CERTIFICADO_DE_GOOGLE" class="btn-certificate" target="_blank">
+                            <i class="fa-solid fa-award"></i> Ver Certificado
+                        </a>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Año Previsto: 2026</span>
+                        <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
+                        <h4>Otorgado por: Microsoft</h4>
+                        <p>Validación de habilidades para la preparación de datos, el modelado y la visualización de datos utilizando la plataforma Power BI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <span class="timeline-date">Año Previsto: 2025</span>
-                <h3>Certificado Profesional de Análisis de Datos de Google</h3>
-                <h4>Otorgado por: Coursera / Google</h4>
-                <p>
-                    Certificación intensiva que cubre el ciclo completo del análisis de datos: preguntar, preparar, procesar, analizar, visualizar y actuar.
-                </p>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <span class="timeline-date">Año Previsto: 2026</span>
-                <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
-                <h4>Otorgado por: Microsoft</h4>
-                <p>
-                    Validación de habilidades para la preparación de datos, el modelado y la visualización de datos utilizando la plataforma Power BI.
-                </p>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section id="contacto" class="section left-aligned-title">
-  <h2><span>CONTACTO</span></h2>
-
-  <div class="contacto-contenido">
-    <div class="contact-photo-container">
-        <img src="img/foto perfil CV.jpg" alt="Foto de Juan Ignacio Higonet" class="contact-photo">
-    </div>
-
-    <div class="contact-text-container">
-        <p class="mensaje-contacto">
-            ¿Tenés una idea o proyecto en mente? Estoy abierto a nuevas oportunidades, colaboraciones o simplemente a charlar.
-        </p>
-        <p class="mensaje-contacto">
-            ¡Gracias por llegar hasta acá!
-        </p>
-        <div class="contacto-botones">
-            <a href="mailto:jhigonet89@gmail.com" class="btn-contacto">📩 Enviar Email</a>
-            <a href="assets/JuanIgnacioHigonet_CV.pdf" target="_blank" class="btn-contacto">📄 Ver CV</a>
-        </div>
-    </div>
-  </div>
-</section>
-
-
-
     </main>
 
+    <footer class="site-footer">
+        <p>© 2025 Juan Ignacio Higonet. Todos los derechos reservados.</p>
+    </footer>
+
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            
-            // --- LÓGICA DE LA ANIMACIÓN DEL SALUDO PRINCIPAL ---
-            const greetingContainer = document.querySelector('.greeting-container');
-            const greetingText = document.querySelector('.greeting-text');
+    document.addEventListener('DOMContentLoaded', () => {
+        const greetingContainer = document.querySelector('.greeting-container');
+        const greetingText = document.querySelector('.greeting-text');
 
-            if (greetingContainer && greetingText) {
-                function cycleGreetingAnimation() {
-                    greetingContainer.classList.add('hidden');
-                    setTimeout(() => {
-                        greetingContainer.classList.remove('hidden');
-                        greetingText.classList.remove('animate-typing');
-                        void greetingText.offsetWidth;
-                        greetingText.classList.add('animate-typing');
-                    }, 2000);
-                }
-
+        if (greetingContainer && greetingText) {
+            function cycleGreetingAnimation() {
+                greetingContainer.classList.add('hidden');
                 setTimeout(() => {
-                    cycleGreetingAnimation(); 
-                    setInterval(cycleGreetingAnimation, 8000); 
-                }, 6000);
+                    greetingContainer.classList.remove('hidden');
+                    greetingText.classList.remove('animate-typing');
+                    void greetingText.offsetWidth; 
+                    greetingText.classList.add('animate-typing');
+                }, 500);
             }
-            const noteContainer = document.querySelector('.note-container');
-        if (noteContainer) {
-            const noteContent = noteContainer.querySelector('.note-content');
-            let timeoutId;
-
-            noteContainer.addEventListener('mouseenter', () => {
-                clearTimeout(timeoutId); // Cancela cualquier desaparición programada
-                noteContent.classList.add('visible');
-            });
-
-            noteContainer.addEventListener('mouseleave', () => {
-                // Espera 300ms antes de ocultar la nota
-                timeoutId = setTimeout(() => {
-                    noteContent.classList.remove('visible');
-                }, 300);
-            });
+            setInterval(cycleGreetingAnimation, 7000);
         }
-        });
+    });
     </script>
-
-<footer class="site-footer">
-    <p>© 2025 Juan Ignacio Higonet. Todos los derechos reservados.</p>
-</footer>
-
 </body>
 </html>

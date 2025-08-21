@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto - Generadores Pseudoaleatorios</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Detalle del Proyecto - Generadores y Tests de Aleatoriedad</title>
+    <link rel="stylesheet" href="style.css?v=1.9">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-<body>
+<body class="project-detail-page">
 
     <nav class="navbar">
         <div class="navbar-container">
@@ -22,11 +22,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/juanignaciohigonet/" class="nav-links" target="_blank" data-tooltip="Ver mi Perfil">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
                         <i class="fa-brands fa-github"></i> GitHub
                     </a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
                         <i class="fa-solid fa-envelope"></i> Mail
                     </a>
@@ -35,45 +40,51 @@
         </div>
     </nav>
 
-     <a href="index.html#proyectos" class="back-to-projects-btn">
-        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos
-    </a>
-
     <div class="project-detail-container">
-        <main class="project-content">
-            <h1>Generadores y Tests de Aleatoriedad</h1>
-            <p>Este proyecto se enfoca en la implementación y evaluación de algoritmos clásicos para la generación de números pseudoaleatorios (PRNGs). El objetivo es construir estos generadores desde cero y luego someter las secuencias de números resultantes a un conjunto de pruebas estadísticas para evaluar su calidad.</p>
-            <p>Se busca responder a la pregunta: ¿qué tan bien una secuencia generada se aproxima a una secuencia verdaderamente aleatoria (uniforme e independiente)?</p>
+        <main class="project-main-content">
+            <a href="index.html#proyectos" class="back-to-projects-btn"><i class="fa-solid fa-arrow-left"></i> Volver a Proyectos</a>
             
-            <h2>Métodos y Pruebas Implementadas</h2>
-            <p>Se implementaron dos generadores históricos y un benchmark:</p>
-            <ul>
-                <li><strong>Generador Lineal Congruencial (LCG):</strong> Un método clásico basado en una relación de recurrencia lineal.</li>
-                <li><strong>Método de los Cuadrados Medios:</strong> Uno de los primeros algoritmos de PRNG, propuesto por John von Neumann.</li>
-                <li><strong>Generador Nativo de Python:</strong> Usado como punto de referencia de alta calidad.</li>
-            </ul>
-            <p>Para evaluar las secuencias, se aplicaron 4 pruebas estadísticas fundamentales: Test de Frecuencia, Test Chi-Cuadrado para uniformidad, Test de Póker para patrones y Test de Rachas para independencia.</p>
+            <h1>Generadores y Tests de Aleatoriedad</h1>
+
+            <section>
+                <h2>Descripción General</h2>
+                <p>
+                    Este proyecto se centra en la implementación y evaluación de algoritmos generadores de números pseudoaleatorios, como el Método Congruencial Lineal y el Método Congruencial Mixto.
+                </p>
+            </section>
+
+            <section>
+                <h2>Objetivo</h2>
+                <p>
+                    El objetivo era comprender cómo funcionan estos generadores y validar la "calidad" de su aleatoriedad mediante la aplicación de pruebas estadísticas rigurosas, como el Test de Chi-Cuadrado y el Test de rachas.
+                </p>
+            </section>
+
+            <section>
+                <h2>Paso a Paso</h2>
+                <ol class="step-by-step">
+                    <li><span>1.</span> Implementación de los algoritmos de generación de números en Python.</li>
+                    <li><span>2.</span> Desarrollo de un conjunto de pruebas estadísticas para evaluar la uniformidad e independencia de las secuencias generadas.</li>
+                    <li><span>3.</span> Generación de grandes volúmenes de datos para realizar las pruebas de manera efectiva.</li>
+                    <li><span>4.</span> Análisis de los resultados para determinar si los generadores pasan las pruebas de aleatoriedad y documentación de las conclusiones.</li>
+                </ol>
+            </section>
         </main>
 
         <aside class="project-sidebar">
-            <img src="img/Python.png" alt="Gráfico de tests de aleatoriedad" class="sidebar-image">
-            <h3>Tecnologías y Conceptos</h3>
-            <div class="project-tech-list">
-                <span>Algoritmos de Simulación</span>
-                <span>Tests Estadísticos</span>
-                <span>Análisis de Aleatoriedad</span>
-                <span>Python</span>
-                <span>NumPy</span>
-            </div>
+            <img src="img/Python.png" alt="Imagen del proyecto Generadores y Tests de Aleatoriedad" class="sidebar-image">
             
-            <h3>Recursos del Proyecto</h3>
+            <h3>Tecnologías Utilizadas</h3>
+            <div class="project-tech-list">
+                <div class="tech-tag"><img src="https://cdn.simpleicons.org/python/5a6474" alt="Python Logo"><span>Python</span></div>
+                <div class="tech-tag"><span>Algoritmos</span></div>
+                <div class="tech-tag"><span>Análisis de Datos</span></div>
+            </div>
+
+            <h3>Recursos Adicionales</h3>
             <div class="project-links">
-                <a href="https://github.com/JuaniHigo/Implemetacion-generador" class="btn-link" target="_blank">
-                    <i class="fa-brands fa-github"></i> Ver en GitHub
-                </a>
-                <a href="https://github.com/JuaniHigo/Implemetacion-generador/blob/main/TP_2_1_Generadores_Pseudoaleatorios.pdf" class="btn-link" target="_blank">
-                    <i class="fa-solid fa-file-pdf"></i> Ver Informe
-                </a>
+                <a href="https://github.com/JuaniHigo/Implemetacion-generador" class="btn-link" target="_blank"><i class="fa-brands fa-github"></i> Ver Código en GitHub</a>
+                <a href="https://github.com/JuaniHigo/Implemetacion-generador/blob/main/TP_2_1_Generadores_Pseudoaleatorios.pdf" class="btn-link" target="_blank"><i class="fa-solid fa-file-pdf"></i> Ver Informe Técnico</a>
             </div>
         </aside>
     </div>

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto - Diseño de Base de Datos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Detalle del Proyecto - Diseño de Base de Datos</title>
+    <link rel="stylesheet" href="style.css?v=1.9">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-<body>
+<body class="project-detail-page">
 
     <nav class="navbar">
         <div class="navbar-container">
@@ -22,11 +22,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/juanignaciohigonet/" class="nav-links" target="_blank" data-tooltip="Ver mi Perfil">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="https://github.com/JuaniHigo" class="nav-links" target="_blank" data-tooltip="Ver mis Repositorios">
                         <i class="fa-brands fa-github"></i> GitHub
                     </a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a href="mailto:jhigonet89@gmail.com" class="nav-links" data-tooltip="Enviar Correo">
                         <i class="fa-solid fa-envelope"></i> Mail
                     </a>
@@ -35,45 +40,50 @@
         </div>
     </nav>
 
-        <a href="index.html#proyectos" class="back-to-projects-btn">
-        <i class="fa-solid fa-arrow-left"></i> Volver a Proyectos
-    </a>
-
     <div class="project-detail-container">
-        <main class="project-content">
-            <h1>Diseño de Base de Datos para Guardería Náutica</h1>
-            <p>
-                Este proyecto abarca el ciclo de vida completo del diseño de una base de datos relacional para un sistema de gestión de una guardería náutica, incluyendo una escuela de actividades acuáticas.
-            </p>
-            <p>
-                A partir de los requerimientos de negocio, se desarrolló un modelo conceptual, un modelo lógico y finalmente la implementación física en SQL.
-            </p>
+        <main class="project-main-content">
+            <a href="index.html#proyectos" class="back-to-projects-btn"><i class="fa-solid fa-arrow-left"></i> Volver a Proyectos</a>
             
-            <h2>Proceso de Diseño</h2>
-            <p>
-                El desarrollo siguió un proceso estructurado, comenzando por el análisis de los requerimientos para identificar entidades y relaciones clave. Posteriormente, se construyó un Diagrama Entidad-Relación (DER) para modelar conceptualmente el sistema. Este modelo fue luego transformado a un esquema relacional, aplicando principios de normalización para asegurar la integridad de los datos. La etapa final consistió en la escritura de un script SQL con las sentencias DDL y DML para crear e inicializar la base de datos.
-            </p>
+            <h1>Diseño de Base de Datos para Guardería Náutica</h1>
+
+            <section>
+                <h2>Descripción General</h2>
+                <p>
+                    Este proyecto académico se centró en el diseño completo de una base de datos relacional para gestionar las operaciones de una guardería náutica, desde el registro de clientes y embarcaciones hasta la facturación y gestión de servicios.
+                </p>
+            </section>
+
+            <section>
+                <h2>Objetivo</h2>
+                <p>
+                    El objetivo era crear un modelo de datos normalizado y eficiente que asegurara la integridad de la información y permitiera realizar consultas complejas para la toma de decisiones operativas y gerenciales.
+                </p>
+            </section>
+
+            <section>
+                <h2>Paso a Paso</h2>
+                <ol class="step-by-step">
+                    <li><span>1.</span> Relevamiento de los requerimientos del sistema y definición de las entidades principales.</li>
+                    <li><span>2.</span> Creación del Diagrama Entidad-Relación (DER) para visualizar las tablas y sus relaciones.</li>
+                    <li><span>3.</span> Aplicación de las formas normales (hasta 3FN) para eliminar redundancias y mejorar la consistencia de los datos.</li>
+                    <li><span>4.</span> Escritura de las sentencias DDL (Data Definition Language) en SQL para la creación de la estructura de la base de datos en MySQL.</li>
+                </ol>
+            </section>
         </main>
 
         <aside class="project-sidebar">
-            <img src="img/proyecto-db.jpg" alt="Diagrama Entidad-Relación" class="sidebar-image">
-            <h3>Habilidades y Conceptos</h3>
-            <div class="project-tech-list">
-                <span>Diseño de BD</span>
-                <span>Modelado de Datos</span>
-                <span>SQL</span>
-                <span>Análisis de Sistemas</span>
-                <span>Normalización</span>
-            </div>
+            <img src="img/proyecto-db.jpg" alt="Imagen del proyecto Diseño de Base de Datos" class="sidebar-image">
             
-            <h3>Recursos del Proyecto</h3>
+            <h3>Tecnologías Utilizadas</h3>
+            <div class="project-tech-list">
+                <div class="tech-tag"><img src="https://cdn.simpleicons.org/mysql/5a6474" alt="MySQL Logo"><span>MySQL</span></div>
+                <div class="tech-tag"><span>Modelado de Datos</span></div>
+            </div>
+
+            <h3>Recursos Adicionales</h3>
             <div class="project-links">
-                <a href="https://github.com/JuaniHigo/Guarderia-SQL" class="btn-link" target="_blank">
-                    <i class="fa-brands fa-github"></i> Ver en GitHub
-                </a>
-                <a href="https://github.com/JuaniHigo/Guarderia-SQL/blob/main/DER_GuarderiaNautica.pdf" class="btn-link" target="_blank">
-                    <i class="fa-solid fa-file-pdf"></i> Ver Informe
-                </a>
+                <a href="https://github.com/JuaniHigo/Guarderia-SQL" class="btn-link" target="_blank"><i class="fa-brands fa-github"></i> Ver Código en GitHub</a>
+                <a href="https://github.com/JuaniHigo/Guarderia-SQL/blob/main/DER_GuarderiaNautica.pdf" class="btn-link" target="_blank"><i class="fa-solid fa-file-pdf"></i> Ver Informe Técnico</a>
             </div>
         </aside>
     </div>
